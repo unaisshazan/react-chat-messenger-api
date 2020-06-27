@@ -4,7 +4,7 @@
 
 If you want start in you locally, you can follow this steps :
 1. ``` git clone https://github.com/unaisshazan/react-chat-messenger-api.git ```
-2. ``` cd chat-fcm ```
+2. ``` cd react-chat-messenger-api```
 3. ``` npm install ``` or ``` yarn install ```
 4. ``` npm start ``` or ``` yarn start ```
 5. ``` Local: http://localhost:3000/ ``` or ``` On Your Network:  http://192.168.0.106:3000/ ```
