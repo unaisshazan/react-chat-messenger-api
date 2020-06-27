@@ -1,0 +1,90 @@
+ // Imports
+ // --------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Quicksand');
+
+// Variables
+// --------------------------------------
+$scrollbar-width:              10px;
+$chat-thread-bgd-color:        rgba(25,147,147,0.2);
+$chat-thread-msg-arrow-size:   15px;
+$chat-thread-avatar-size:      50px;
+$chat-thread-offset:           #{$chat-thread-avatar-size + 30px};
+$font-quicksand : 'Quicksand', sans-serif;
+$font-bellefair : 'Bellefair', serif;
+$font-medium : 20px;
+$font-small: 15px;
+$body-center: center;
+$list-none: none;
+$font-white: white;
+
+//@extend ;
+// --------------------------------------
+%ul-style {
+  font-family: $font-bellefair;
+  font-size: $font-medium;
+  list-style-type: $list-none;
+}
+
+%button-chat {
+  border: 0;
+  margin-top: 10px;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #c44569;
+  color: #fff;
+  font-weight: 50;
+}
+
+%button-chat-hover {
+  border: 0;
+  margin-top: 10px;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #B33771;
+  color: #fff;
+  font-weight: 50;
+}
+
+%style-body {
+  padding: 0;
+	margin: 0;
+	background: -moz-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
+	background: -webkit-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+%form-container {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+%input-text {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #c44569;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+%input-autofill {
+  -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+  -webkit-text-fill-color: #fff !important;
+}
